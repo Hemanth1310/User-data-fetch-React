@@ -13,7 +13,7 @@ class Climp extends Component{
     };
     
     async componentDidMount(){
-        const url ="http://localhost:3000/people";
+        const url ="https://f23acdec-663e-4643-a760-6dfda5bd29fe.mock.pstmn.io/vi/home/";
         const response = await fetch(url);
         const data = await response.json();
         this.setState({ person: data.members, loading: false });

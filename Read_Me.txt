@@ -12,6 +12,11 @@ Device Side Setup
 
 Server Side Setup
 
+	Default is set to Postman-mock api server
+		(Just run the app)
+
+    Else if		
+
 	Creating Mock Api through json-server
 	(Use the TestJSON.json file in the repo/ open Secound terminal in VSCODE and run following)
 		commands:
